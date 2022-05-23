@@ -1,0 +1,89 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  color: #9698a6;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: #9698a6;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+button,
+.button {
+  padding: 1rem 1.875rem;
+  border-radius: 50px;
+  background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background: linear-gradient(90deg, #31d35c, #2bb7da);
+  color: white;
+  font-weight: 400;
+  border: 0;
+  cursor: pointer;
+}
+
+.header nav {
+  padding: 25px;
+}
+
+.header__menu > span {
+  display: block;
+  background-color: #2d314d;
+  width: 26px;
+  height: 3px;
+}
+
+.header__menu > span:not(:last-child) {
+  margin-bottom: 2px;
+}
+
+.header__links {
+  font-size: 0.875rem;
+  color: #9698a6;
+}
+
+.header__cta {
+  font-size: 0.875rem;
+}
+/*# sourceMappingURL=style.css.map */

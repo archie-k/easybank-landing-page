@@ -1,0 +1,31 @@
+.header {
+  nav {
+    padding: 25px;
+  }
+  &__logo {
+    img {
+    }
+  }
+
+  &__menu {
+    > span {
+      display: block;
+      background-color: $darkBlue;
+      width: 26px;
+      height: 3px;
+
+      &:not(:last-child) {
+        margin-bottom: 2px;
+      }
+    }
+  }
+
+  &__links {
+    font-size: $font-sm;
+    color: $grayishBlue;
+  }
+
+  &__cta {
+    font-size: $font-sm;
+  }
+}
